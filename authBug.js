@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger consistently if the user's authentication state changes rapidly (e.g., multiple sign-ins/sign-outs in quick succession).  This can lead to missed state updates and unexpected behavior in your application.  The issue stems from potential rate limiting or internal processing delays within the Firebase SDK.
